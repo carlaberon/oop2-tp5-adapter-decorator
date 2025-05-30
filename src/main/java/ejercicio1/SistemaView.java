@@ -2,9 +2,9 @@ package ejercicio1;
 
 import javax.swing.*;
 
-public class Ventana extends JFrame {
+public class SistemaView extends JFrame {
 
-    public Ventana() {
+    public SistemaView() {
         setTitle("Ventana de Ejemplo");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,6 +17,6 @@ public class Ventana extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Ventana::new);
+        SwingUtilities.invokeLater(SistemaView::new);
     }
 }
